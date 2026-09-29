@@ -1,0 +1,9 @@
+# Words this site should avoid
+leverage
+synergy
+seamless
+cutting-edge
+solutions
+robust
+clé en main
+valeur ajoutée

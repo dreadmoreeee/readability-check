@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readability-check"
+version = "1.0.0"
+description = "Readability scores for web pages in English, French and Spanish (Flesch, Kincaid, Kandel-Moles, Fernandez Huerta, Szigriszt-Pazos) plus long sentences, passive hints and jargon. CI thresholds included."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Marvin Palencia"}]
+requires-python = ">=3.10"
+keywords = ["readability", "flesch", "seo", "content", "accessibility", "plain-language"]
+
+[project.urls]
+Homepage = "https://github.com/dreadmoreeee/readability-check"
+Author = "https://marvin.demarkstudio.ca"
+
+[project.scripts]
+readability-check = "readability_check.cli:main"
+
+[tool.setuptools]
+packages = ["readability_check"]
